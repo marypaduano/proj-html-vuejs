@@ -24,6 +24,22 @@
         <div>
             <Tutorials />
         </div>
+        <section>
+            <BlogRow />
+        </section>
+        <section class="forum">
+        <div class="container">
+                <div class="row">
+                    <div class="col">
+                        <h3 class="title-section">phasellus eget metus</h3>
+                        <h1 class="subtitle-section">Forum Sections</h1>
+                    </div>                    
+                </div>
+                <ul>
+                    <ForumCards /> 
+                </ul>
+        </div>
+    </section>
         
     </main>
 </template>
@@ -33,12 +49,16 @@
 import MainCard from './MainCard.vue'
 import ReadMore from './ReadMore.vue'
 import Tutorials from './Tutorials.vue'
+import BlogRow from './BlogRow.vue'
+import ForumCards from './ForumCards.vue'
 
 export default {
     components: {
         MainCard,
         ReadMore,
-        Tutorials
+        Tutorials,
+        BlogRow,
+        ForumCards
     },
     data() {
         return {
@@ -90,7 +110,7 @@ export default {
                 },
 
             ],
-            
+                        
         }
     }
 
@@ -126,6 +146,9 @@ export default {
         }
 
     }
+}
+.forum{
+    background-color: rgb(242, 242, 242);
 }
 
 </style>
