@@ -22,15 +22,15 @@ export default {
                     title: "News & Community",
                 },
                 {
-                    icon: "fa-apple",
+                    icon: "fa-apple-whole",
                     title: "Apple Forum",
                 },
                 {
-                    icon: "fa-windows",
+                    icon: "fa-desktop",
                     title: "Microsoft Forum",
                 },
                 {
-                    icon: "fa-android",
+                    icon: "fa-robot",
                     title: "Android Forum",
                 },
                 {
@@ -90,7 +90,13 @@ export default {
     background-color: rgb(255, 141, 97);
     text-align: center;
     vertical-align: middle;
+    aspect-ratio: 1/1;
     cursor: pointer;
+    transition: transform 0.3s;
+
+    &:hover {
+        transform: scale(1.1) translateZ(0);
+    }
     
 }
 </style>

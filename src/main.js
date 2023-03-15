@@ -5,12 +5,11 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 
 /* import specific icons */
-import { faSearch } from '@fortawesome/free-solid-svg-icons'
-import { faFile } from '@fortawesome/free-regular-svg-icons'
-import { faWrench, faMugSaucer, faCubes, faLaptop,  } from '@fortawesome/free-solid-svg-icons'
-import { faApple, faMicrosoft, faAndroid } from '@fortawesome/free-brands-svg-icons'
+import { faSearch, faRobot, faDesktop } from '@fortawesome/free-solid-svg-icons'
+import { faAppleWhole, faWrench, faMugSaucer, faCubes, faLaptop, faFileLines } from '@fortawesome/free-solid-svg-icons'
+// import {faMicrosoft} from '@fortawesome/free-brands-svg-icons'
 
-library.add(faSearch, faFile, faMugSaucer, faCubes, faLaptop, faWrench, faApple, faMicrosoft, faAndroid)
+library.add(faSearch, faFileLines, faMugSaucer, faCubes, faLaptop, faWrench, faAppleWhole, faDesktop, faRobot)
 
 
 createApp(App).component('font-awesome-icon', FontAwesomeIcon).mount('#app')
