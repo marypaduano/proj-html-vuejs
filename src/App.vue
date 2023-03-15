@@ -2,12 +2,14 @@
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import ForumDescription from './components/ForumDescription.vue'
+import Main from './components/Main.vue'
 
 export default {
   components: {
     Header,
     Hero,
-    ForumDescription
+    ForumDescription,
+    Main
   }
 }
 </script>
@@ -19,6 +21,7 @@ export default {
   <Header />
   <Hero />
   <ForumDescription />
+  <Main />
   
 </template>
 

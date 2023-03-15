@@ -1,34 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Fira Sans', sans-serif;
-  }
-  
-  a {
-    text-decoration: none;
-    color: currentColor;
-  }
-  
-  menu, ul, ol {
-    list-style: none;
-  }
-  
-  input, button {
-    border: none;
-  }
-  
-  img {
-    max-width: 100%;
-  }
-  
-  .container {
-    max-width: 1240px;
-    margin: 0 auto;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Fira Sans', sans-serif;
+}
 
-  .title-section{
-    text-transform: uppercase;
-    color: rgb(80, 80, 80);
-    font-size: 18px;
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+menu,
+ul,
+ol {
+  list-style: none;
+}
+
+input,
+button {
+  border: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 80px 0;
+}
+
+.title-section {
+  text-transform: uppercase;
+  color: rgb(73, 73, 73);
+  font-size: 16px;
+  letter-spacing: 5px;
+  padding-bottom: 18px;
+}
+
+.subtitle-section {
+  font-size: 45px;
+  color: rgb(18, 18, 18);
 }
