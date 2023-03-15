@@ -20,8 +20,11 @@
                         :comment="card2.comment" :description="card2.description" />
                 </ul>
             </div>
-
         </section>
+        <div>
+            <Tutorials />
+        </div>
+        
     </main>
 </template>
 
@@ -29,10 +32,13 @@
 <script>
 import MainCard from './MainCard.vue'
 import ReadMore from './ReadMore.vue'
+import Tutorials from './Tutorials.vue'
+
 export default {
     components: {
         MainCard,
-        ReadMore
+        ReadMore,
+        Tutorials
     },
     data() {
         return {
@@ -62,28 +68,29 @@ export default {
             ],
             cards2: [
                 {
-                    src: "/img/post_feat_img_25-700x441.jpg",
-                    title: "Morbi vitae dui euismod vulputate sollicitudin",
-                    date: "October 11th, 2015",
-                    comment: "2 Comments",
-                    description: "Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl"
-                },
-                {
-                    src: "/img/post_feat_img_24-700x441.jpg",
-                    title: "Vivamus pellenteque, felis quis varius",
+                    src: "/img/post_feat_img_22-700x441.jpg",
+                    title: "Fusce sollicitudin nunc sed placerat varius",
                     date: "October 11th, 2015",
                     comment: "Comments Off",
                     description: "Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl"
                 },
                 {
-                    src: "/img/post_feat_img_23-700x441.jpg",
-                    title: "Donec ornare pretium eget scelisque justo",
+                    src: "/img/post_feat_img_21-700x441.jpg",
+                    title: "Donec facilis sodales leo sit amet laoreet",
+                    date: "October 11th, 2015",
+                    comment: "Comments Off",
+                    description: "Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl"
+                },
+                {
+                    src: "/img/post_feat_img_20-700x441.jpg",
+                    title: "Proin eu purus sed aru aliquet curabir vens",
                     date: "October 11th, 2015",
                     comment: "Comments Off",
                     description: "Donec finibus sit amet orci eget ultricies. Praesent posuere ante ut erat fringilla, vestibulum placerat metus mattis. Aenean dictum vitae nisl"
                 },
 
-            ]
+            ],
+            
         }
     }
 
@@ -120,4 +127,5 @@ export default {
 
     }
 }
+
 </style>
