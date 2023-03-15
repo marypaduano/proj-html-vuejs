@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    text-decoration: none;
+    color: currentColor;
+  }
+  
+  menu, ul, ol {
+    list-style: none;
+  }
+  
+  input, button {
+    border: none;
+  }
+  
+  img {
+    max-width: 100%;
+  }
+  
+  .container {
+    max-width: 1240px;
+    margin: 0 auto;
+  }
+
+  // ROOT
+
+$color-active-link: rgb(255, 249, 249);
+$color-active-button: rgb(253, 134, 120);
+$blue-primary: rgb(40, 175, 195);
