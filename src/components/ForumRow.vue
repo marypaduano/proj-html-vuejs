@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <a href="#" class="url">
-                    <h4>read our blog</h4>
+                    <h4>go to our forum</h4>
                     <font-awesome-icon icon="fa-solid fa-right-long" />
                 </a>
             </div>

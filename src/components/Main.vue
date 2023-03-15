@@ -40,6 +40,9 @@
                 </ul>
         </div>
     </section>
+    <div>
+            <ForumRow />
+    </div>
         
     </main>
 </template>
@@ -50,6 +53,7 @@ import MainCard from './MainCard.vue'
 import ReadMore from './ReadMore.vue'
 import Tutorials from './Tutorials.vue'
 import BlogRow from './BlogRow.vue'
+import ForumRow from './ForumRow.vue'
 import ForumCards from './ForumCards.vue'
 
 export default {
@@ -58,6 +62,7 @@ export default {
         ReadMore,
         Tutorials,
         BlogRow,
+        ForumRow,
         ForumCards
     },
     data() {

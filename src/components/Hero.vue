@@ -10,7 +10,7 @@
                 </h3>
                 <button type="button">
                     <span>Start with avada!</span>
-                    <!-- <font-awesome-icon icon="fa-sharp fa-solid fa-chevron-right" /> -->
+                    <font-awesome-icon icon="fa-solid fa-angle-right" />
                 </button>
             </div>
         </div>
@@ -49,6 +49,9 @@
         max-width: fit-content;
         color: white;
         text-transform: uppercase;
+        display: flex;
+        gap: 20px;
+        align-items: center;
         background-color: rgb(40, 175, 195);
         padding: 15px 38px;
         font-weight: 700;

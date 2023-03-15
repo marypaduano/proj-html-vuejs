@@ -5,7 +5,10 @@
                 <h1 class="feat-article">featured article</h1>
                 <h2 class="title-article">Cras Malesuada Et Orci Eget Pharetra</h2>
                 <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis,sed blandit dui, dolor at bibendum sadips ets ipsums dolores ficilis uns leo lectus.</p>
-                <button>Read More</button>
+                <button>
+                    <span>Read More</span> 
+                    <font-awesome-icon icon="fa-solid fa-angle-right" />
+                </button>
             </div>
         </div>
 
@@ -45,12 +48,16 @@ p{
     font-size: 15px;
 }
 
+
 button{
-        padding: 15px 35px;
+        padding: 15px 38px;
+        display: flex;
+        gap: 20px;
+        align-items: center;
         text-transform: uppercase;
         background-color: rgba(10, 10, 10, 0.925);
         color: white;
-        font-weight: 600;
+        font-weight: 700;
         font-size: 19px;
         max-width: fit-content;
         cursor: pointer;
