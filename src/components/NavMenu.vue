@@ -1,5 +1,5 @@
 <template>
-    <li>
+    <li class="menu_item">
       <span>{{ title }}</span>
     </li>
   </template>

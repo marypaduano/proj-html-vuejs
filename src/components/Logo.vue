@@ -6,4 +6,7 @@
   
   
   <style lang="scss" scoped>
+  .logo{
+    cursor: pointer;
+  }
   </style>

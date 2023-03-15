@@ -69,20 +69,25 @@ header {
     .menu_item{
         display: flex;
         align-items: center;
-        color: white;
+        color: rgba(255, 255, 255, 0.598);
         gap: 20px;
         font-size: 15px;
         font-weight: 600;
+        cursor: pointer;
+        &.active, &:hover {
+        color: white;
+      }
     }
     .btn{
         padding: 12px 20px;
         background-color: black;
         color: white;
         font-weight: 600;
-
+        cursor: pointer;
         &.active, &:hover {
         background-color: salmon;
-      }
+      }    
+        
     }
 }
 </style>

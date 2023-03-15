@@ -8,7 +8,7 @@
                 <h3 class="subtitle">
                     Discuss all the latest technology news and trends
                 </h3>
-                <button>
+                <button type="button">
                     <span>Start with avada!</span>
                     <!-- <font-awesome-icon icon="fa-sharp fa-solid fa-chevron-right" /> -->
                 </button>
@@ -32,12 +32,13 @@
         flex-direction: column;
         gap: 35px;
         color: white;
-        padding: 95px 0;
+        padding: 160px 0;
         position: relative;
     }
 
     .title {
-        font-size: 120px;
+        font-size: 130px;
+        font-weight: 700;
     }
 
     .subtitle {
@@ -49,7 +50,10 @@
         color: white;
         text-transform: uppercase;
         background-color: rgb(40, 175, 195);
-        padding: 15px 20px;
+        padding: 15px 38px;
+        font-weight: 700;
+        font-size: 19px;
+        cursor: pointer;
     }
 }
 </style>
