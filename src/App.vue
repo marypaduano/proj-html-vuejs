@@ -1,11 +1,13 @@
 <script>
 import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
+import ForumDescription from './components/ForumDescription.vue'
 
 export default {
   components: {
     Header,
-    Hero
+    Hero,
+    ForumDescription
   }
 }
 </script>
@@ -16,6 +18,7 @@ export default {
 
   <Header />
   <Hero />
+  <ForumDescription />
   
 </template>
 

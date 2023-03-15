@@ -27,8 +27,8 @@
     margin: 0 auto;
   }
 
-  // ROOT
-
-$color-active-link: rgb(255, 249, 249);
-$color-active-button: rgb(253, 134, 120);
-$blue-primary: rgb(40, 175, 195);
+  .title-section{
+    text-transform: uppercase;
+    color: rgb(80, 80, 80);
+    font-size: 18px;
+}
