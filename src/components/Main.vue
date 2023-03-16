@@ -51,6 +51,9 @@
     </div>
         
     </main>
+    <footer>
+        <AppFooter />
+    </footer>
 </template>
 
 
@@ -63,6 +66,7 @@ import ForumRow from './ForumRow.vue'
 import ForumCards from './ForumCards.vue'
 import Community from './Community.vue'
 import InputMail from './InputMail.vue'
+import AppFooter from './AppFooter.vue'
 
 export default {
     components: {
@@ -73,7 +77,8 @@ export default {
         ForumRow,
         ForumCards,
         Community,
-        InputMail
+        InputMail,
+        AppFooter
     },
     data() {
         return {
