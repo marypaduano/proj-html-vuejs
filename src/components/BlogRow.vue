@@ -1,5 +1,5 @@
 <template>
-    <section>
+    <section class="up-effect">
         <div class="container">
             <div class="row">
                 <a href="#" class="url">
@@ -34,5 +34,22 @@ section{
     gap: 20px;
     color: white;
     font-size: 18px;
+}
+.up-effect {
+  position: relative;
+  animation-name: up-effect;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes up-effect {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 </style>

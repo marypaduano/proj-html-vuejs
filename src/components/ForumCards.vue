@@ -2,7 +2,7 @@
     
     <ul class="grid_card">
         <li v-for="(card, i) in forumCards" :key="i" class="card">
-            <div class="card-icon">
+            <div class="card-icon bottom-effect">
             <font-awesome-icon :icon="card.icon" class="icon"/>
         </div>
             <span>{{ card.title }}</span>
@@ -98,5 +98,23 @@ export default {
         transform: scale(1.1) translateZ(0);
     }
     
+}
+.bottom-effect {
+  opacity: 0;
+  transform: translateY(50px);
+  animation-name: bottom-effect;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes bottom-effect {
+  from {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
 </style>
