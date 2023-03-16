@@ -11,7 +11,7 @@ export default {
     Hero,
     ForumDescription,
     Main,
-    AppFooter
+    AppFooter,
   }
 }
 </script>

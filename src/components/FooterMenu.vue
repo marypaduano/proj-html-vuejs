@@ -27,7 +27,7 @@
   h3 {
     font-size: 18px;
     text-transform: uppercase;
-    margin-bottom: 24px;;
+    margin-bottom: 38px;;
   }
   .menu-item {
     line-height: 25px;

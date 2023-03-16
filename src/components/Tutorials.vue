@@ -1,14 +1,14 @@
 <template>
     <div class="container">
         <div class="row">
-            <div class="col article">
+            <div class="col article fade-in-left ">
                 <h1 class="feat-article">reviewed product</h1>
                 <h2 class="title-article">Mauris Viverra Atisan Ipsum Eget Felis Prims Efficitur Varius</h2>
                 <p>In quis lectus sed leo elementum faucibus in dapibus dictum. Nullamolestie tortor nec lectus venenatis,
                     sed blandit dui, dolor at bibendum.</p>
                 <button>Read More</button>
             </div>
-            <div class="col">
+            <div class="col fade-in-right">
                 <h1 class="title-tutorials">Tutorials & Guides</h1>
                 <ul>
                     <li v-for="(card, i) in cards" class="card">
@@ -170,5 +170,40 @@ img{
     &.active, &:hover{
         color: rgb(40, 175, 195)        
     }
+}
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation-name: fade-in-right;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+.fade-in-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  animation-name: fade-in-left;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+@keyframes fade-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>

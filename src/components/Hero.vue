@@ -1,6 +1,6 @@
 <template>
     <section class="hero">
-        <div class="container">
+        <div class="container fade-in-right">
             <div class="col">
                 <h1 class="title">
                     Tech Forum!
@@ -62,5 +62,24 @@
             background-color: salmon;
         }
     }
+}
+
+.fade-in-right {
+  opacity: 0;
+  transform: translateX(50px);
+  animation-name: fade-in-right;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
 }
 </style>

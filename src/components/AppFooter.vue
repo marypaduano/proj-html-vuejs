@@ -15,16 +15,23 @@
             <div class="col">
                 <FooterMenu title="latest replies" :links="menu3.links" />
             </div>
+            
         </div>
+        <hr>
+        <Copyright />
+        
+
 
     </footer>
 </template>
   
 <script>
 import FooterMenu from './FooterMenu.vue'
+import Copyright from './Copyright.vue'
 export default {
     components: {
         FooterMenu,
+        Copyright
     },
     data() {
         return {
