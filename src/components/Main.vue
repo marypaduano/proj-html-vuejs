@@ -43,6 +43,12 @@
     <div>
             <ForumRow />
     </div>
+    <div>
+            <Community />
+    </div>
+    <div>
+            <InputMail />
+    </div>
         
     </main>
 </template>
@@ -55,6 +61,8 @@ import Tutorials from './Tutorials.vue'
 import BlogRow from './BlogRow.vue'
 import ForumRow from './ForumRow.vue'
 import ForumCards from './ForumCards.vue'
+import Community from './Community.vue'
+import InputMail from './InputMail.vue'
 
 export default {
     components: {
@@ -63,7 +71,9 @@ export default {
         Tutorials,
         BlogRow,
         ForumRow,
-        ForumCards
+        ForumCards,
+        Community,
+        InputMail
     },
     data() {
         return {

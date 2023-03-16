@@ -18,7 +18,7 @@ section{
     color: white;
     text-transform: uppercase;
     text-align: center;
-    height: 20px;
+
     cursor: pointer;
     &:hover{
         background-color: rgb(40, 175, 195);

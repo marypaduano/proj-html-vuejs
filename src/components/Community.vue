@@ -3,13 +3,11 @@
         <div class="container">
             <div class="col">
                 <h1 class="title">
-                    Tech Forum!
+                    Hey! Join To Our Community
                 </h1>
-                <h3 class="subtitle">
-                    Discuss all the latest technology news and trends
-                </h3>
+                <p>Nulla molestie tortor nec lectus venenatis, sed blandit dui finibus. Curabitur feugiat vulputate purus ipsums dolores ficilis uns etra.</p>
                 <button type="button">
-                    <span>Start with avada!</span>
+                    <span>sign-up</span>
                     <font-awesome-icon icon="fa-solid fa-angle-right" />
                 </button>
             </div>
@@ -21,28 +19,36 @@
   
 <style lang="scss" scoped>
 .hero {
-    background-image: url('./img/home_slider_bg.jpg');
-    background-attachment: fixed;
+    background-image: url('./img/join_now_cta_bg.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
 
+    .container{
+        max-width: 991px;
+        padding: 0 30px;
+    }
+
+
     .col {
         display: flex;
         flex-direction: column;
+        align-items: center;
+        text-align: center;
         gap: 35px;
         color: white;
-        padding: 160px 0;
         position: relative;
+        padding: 80px;
     }
 
     .title {
-        font-size: 130px;
+        font-size: 80px;
         font-weight: 700;
     }
 
-    .subtitle {
-        font-size: 25px;
+    p {
+        font-size: 15px;
+        line-height: 28px;
     }
 
     button {
