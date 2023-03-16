@@ -77,11 +77,15 @@ header {
         font-size: 15px;
         font-weight: 600;
         cursor: pointer;
+        position: relative;
 
         &.active,
-        &:hover {
-            color: white;
+        &:hover{
+            color: white;          
+            
         }
+        
+    
     }
 
     .btn {

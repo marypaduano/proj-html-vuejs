@@ -3,7 +3,7 @@
         <div class="col">
             <ul class="copy">
                 <li>
-                    &copy;Copyright 2012 - 2023
+                    &copy;Copyright 2023
                 </li>
                 <li>
                     Avada Theme by
@@ -17,7 +17,7 @@
                 <li>
                     Powered by
                     <a href="#">
-                        Wordpress
+                        Maria Paduano
                     </a> 
                 </li>
             </ul>
