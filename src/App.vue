@@ -3,13 +3,15 @@ import Header from './components/Header.vue'
 import Hero from './components/Hero.vue'
 import ForumDescription from './components/ForumDescription.vue'
 import Main from './components/Main.vue'
+import AppFooter from './components/AppFooter.vue'
 
 export default {
   components: {
     Header,
     Hero,
     ForumDescription,
-    Main
+    Main,
+    AppFooter
   }
 }
 </script>
@@ -22,6 +24,8 @@ export default {
   <Hero />
   <ForumDescription />
   <Main />
+  <AppFooter />
+ 
   
 </template>
 

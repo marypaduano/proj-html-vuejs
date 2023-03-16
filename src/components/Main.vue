@@ -28,32 +28,29 @@
             <BlogRow />
         </section>
         <section class="forum">
-        <div class="container">
+            <div class="container">
                 <div class="row">
                     <div class="col">
                         <h3 class="title-section">phasellus eget metus</h3>
                         <h1 class="subtitle-section">Forum Sections</h1>
-                    </div>                    
+                    </div>
                 </div>
                 <ul>
-                    <ForumCards /> 
+                    <ForumCards />
                 </ul>
-        </div>
-    </section>
-    <div>
+            </div>
+        </section>
+        <div>
             <ForumRow />
-    </div>
-    <div>
+        </div>
+        <div>
             <Community />
-    </div>
-    <div>
+        </div>
+        <div>
             <InputMail />
-    </div>
-        
+        </div>
     </main>
-    <footer>
-        <AppFooter />
-    </footer>
+    
 </template>
 
 
@@ -66,7 +63,7 @@ import ForumRow from './ForumRow.vue'
 import ForumCards from './ForumCards.vue'
 import Community from './Community.vue'
 import InputMail from './InputMail.vue'
-import AppFooter from './AppFooter.vue'
+
 
 export default {
     components: {
@@ -78,7 +75,6 @@ export default {
         ForumCards,
         Community,
         InputMail,
-        AppFooter
     },
     data() {
         return {
@@ -130,7 +126,7 @@ export default {
                 },
 
             ],
-                        
+
         }
     }
 
@@ -167,8 +163,8 @@ export default {
 
     }
 }
-.forum{
+
+.forum {
     background-color: rgb(242, 242, 242);
 }
-
 </style>
