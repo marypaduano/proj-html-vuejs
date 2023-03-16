@@ -34,6 +34,15 @@
     font-size: 15px;
     padding: 15px 0;
     border-bottom: 1px solid rgba(207, 206, 206, 0.913);
-  }
+    position: relative;
+    cursor: pointer;
+    &:before {
+    content: "\1433";
+    left: -15px;
+    position: absolute;
 }
+
+    }
+  }
+
 </style>
