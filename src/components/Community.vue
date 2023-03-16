@@ -1,7 +1,7 @@
 <template>
     <section class="hero">
         <div class="container">
-            <div class="col">
+            <div class="col up-effect">
                 <h1 class="title">
                     Hey! Join To Our Community
                 </h1>
@@ -68,5 +68,22 @@
             background-color: salmon;
         }
     }
+}
+.up-effect {
+  position: relative;
+  animation-name: up-effect;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+}
+
+@keyframes up-effect {
+  from {
+    top: -50px;
+    opacity: 0;
+  }
+  to {
+    top: 0;
+    opacity: 1;
+  }
 }
 </style>

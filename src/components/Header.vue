@@ -59,6 +59,9 @@ export default {
 header {
     background-color: rgb(40, 175, 195);
     padding: 15px 0;
+    position: sticky;
+    top: 0;
+    z-index: 999;
 
     .row {
         display: flex;

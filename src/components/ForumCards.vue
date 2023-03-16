@@ -92,10 +92,12 @@ export default {
     vertical-align: middle;
     aspect-ratio: 1/1;
     cursor: pointer;
-    transition: transform 0.3s;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
 
     &:hover {
-        transform: scale(1.1) translateZ(0);
+        transform: scale(1.1) 
     }
     
 }
